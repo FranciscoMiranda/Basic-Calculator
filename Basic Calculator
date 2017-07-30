@@ -16,6 +16,7 @@
 <input type="button" name="1" value="8" onClick="run8()">
 <input type="button" name="1" value="9" onClick="run9()">
 <input type="button" name="plus" value="+" onClick="runplus()">
+<input type="button" name="minus" value="-" onClick="runminus()">
 </br>
 <input type="button" name="calc" value="=" onClick="evalu()">
 </form>
@@ -41,6 +42,7 @@ function run9()
 {document.frm.result.value += "9";}
 function runplus()
 {document.frm.result.value += "+";}
+{document.frm.result.value += "-";}
 
 function evalu(){
 
