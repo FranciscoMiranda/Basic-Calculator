@@ -1,0 +1,56 @@
+<html>
+<head>
+</head>
+<body>
+<form name="frm">
+
+<input name="result">
+</br>
+<input type="button" name="1" value="1" onClick="run1()">
+<input type="button" name="1" value="2" onClick="run2()">
+<input type="button" name="1" value="3" onClick="run3()">
+<input type="button" name="1" value="4" onClick="run4()">
+<input type="button" name="1" value="5" onClick="run5()">
+<input type="button" name="1" value="6" onClick="run6()">
+<input type="button" name="1" value="7" onClick="run7()">
+<input type="button" name="1" value="8" onClick="run8()">
+<input type="button" name="1" value="9" onClick="run9()">
+<input type="button" name="plus" value="+" onClick="runplus()">
+</br>
+<input type="button" name="calc" value="=" onClick="evalu()">
+</form>
+<script type="text/JavaScript">
+
+function run1()
+{document.frm.result.value += "1";}
+function run2()
+{document.frm.result.value += "2";}
+function run3()
+{document.frm.result.value += "3";}
+function run4()
+{document.frm.result.value += "4";}
+function run5()
+{document.frm.result.value += "5";}
+function run6()
+{document.frm.result.value += "6";}
+function run7()
+{document.frm.result.value += "7";}
+function run8()
+{document.frm.result.value += "8";}
+function run9()
+{document.frm.result.value += "9";}
+function runplus()
+{document.frm.result.value += "+";}
+
+function evalu(){
+
+     var evalo = eval(document.frm.result.value)
+	 
+	 document.frm.result.value = evalo;
+
+}
+
+
+</script>
+</body>
+</html>
