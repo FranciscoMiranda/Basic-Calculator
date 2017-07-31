@@ -9,5 +9,7 @@ WHAT'S NEW!:
   4. Centered the calculator
   5. Added the WHATS NEW list
   6. White border
+<br>
 Ver 2.0 - Figured out how to implement subraction. Made a 'func' for subtraction AND then made the 'input type', will later attempt multiplication and division.
+<br>
 Ver 1.0 - So far all I can do is addition. Aiming to get a substraction code.
