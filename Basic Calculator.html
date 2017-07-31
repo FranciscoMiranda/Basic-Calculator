@@ -1,25 +1,67 @@
 <html>
 <head>
-</head>
-<body>
-<form name="frm">
 
-<input name="result">
-</br>
-<input type="button" name="1" value="1" onClick="run1()">
-<input type="button" name="1" value="2" onClick="run2()">
-<input type="button" name="1" value="3" onClick="run3()">
-<input type="button" name="1" value="4" onClick="run4()">
-<input type="button" name="1" value="5" onClick="run5()">
-<input type="button" name="1" value="6" onClick="run6()">
-<input type="button" name="1" value="7" onClick="run7()">
-<input type="button" name="1" value="8" onClick="run8()">
-<input type="button" name="1" value="9" onClick="run9()">
-<input type="button" name="plus" value="+" onClick="runplus()">
-<input type="button" name="minus" value="-" onClick="runminus()">
-</br>
-<input type="button" name="calc" value="=" onClick="evalu()">
+  <title> Basic Calculator </title>
+  <style>
+body {
+  background-color: black;
+  border: 3px solid white;
+}
+h1 {
+  color: pink;
+  font-style: bold;
+  font-family: helvetica;
+}
+h3 {
+  color: white;
+}
+ul, li {
+  color: white;
+  font-family: helvetica;
+}
+li {
+  font-style: italic;
+}
+  </style>
+</head>
+<h1> Version 2.5 </h1>
+<body>
+  <center>
+    <br>
+    <br>
+<form name="frm">
+<!-- input name is where you type in numbers and get answers -->
+<input name="result" <br="">
+<br>
+<input type="button" name="1" value="1" onclick="run1()">
+<input type="button" name="1" value="2" onclick="run2()">
+<input type="button" name="1" value="3" onclick="run3()">
+<input type="button" name="1" value="4" onclick="run4()">
+<input type="button" name="1" value="5" onclick="run5()">
+<input type="button" name="1" value="6" onclick="run6()">
+<br>
+<input type="button" name="1" value="7" onclick="run7()">
+<input type="button" name="1" value="8" onclick="run8()">
+<input type="button" name="1" value="9" onclick="run9()">
+<input type="button" name="plus" value="+" onclick="runplus()">
+<input type="button" name="minus" value="-" onclick="runminus()">
+<input type="button" name="calc" value="=" onclick="evalu()">
 </form>
+<br>
+<br>
+</center>
+<h3>
+&nbsp &nbsp &nbsp &nbsp &nbsp WHAT'S NEW!:
+</h3>
+<ul>
+<li>Background color to black</li>
+<li>Text color to white</li>
+<li>Added version number in top left</li>
+<li>Centered the calculator</li>
+<li>Added the WHATS NEW list</li>
+<li>White border</li>
+</ul>
+
 <script type="text/JavaScript">
 
 function run1()
@@ -42,17 +84,19 @@ function run9()
 {document.frm.result.value += "9";}
 function runplus()
 {document.frm.result.value += "+";}
+function runminus()
 {document.frm.result.value += "-";}
 
 function evalu(){
 
      var evalo = eval(document.frm.result.value)
-	 
+
 	 document.frm.result.value = evalo;
 
 }
 
 
 </script>
-</body>
-</html>
+
+
+</body></html>
